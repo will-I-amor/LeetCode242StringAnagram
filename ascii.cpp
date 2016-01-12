@@ -3,8 +3,10 @@
 #include <array>
 #include <time.h>
 using namespace std;
-bool isAnagram(string s, string t){
+bool isAnagram(string s, string t){//比对两个string是不是含有刚好相同的字母，即使字母顺序位置不一致也OK
 	bool flag = true;
+	//把两个string里的字母char，读出来，用array计数。a就给num_s[0]位上加1，b就给num_s[1]位上加1.
+	//此处注意对于ASCII character字符的运用，即-97
 	if(s.size()!=t.size()){
 		return false;
 	}
