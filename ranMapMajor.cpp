@@ -2,6 +2,7 @@
 #include <map>
 #include <array>
 using namespace std;
+//这个方法只打败了1%的人，也是醉了。总共有6钟方法
 int main(){
   array<int, 3>myArray = {3,3,4};
   map<int,int>myMap;
