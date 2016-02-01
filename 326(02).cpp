@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std;//leetcode 326
 bool isPowerOfThree(int n){
 	if (n == 1){
 		return true;
